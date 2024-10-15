@@ -23,42 +23,69 @@
   <nav>
     <p class="myname">Moisés Monteiro</p>
     <span class="links-nav">
-      <a href="https://www.linkedin.com/in/moises-monteiro-91063622a/"
+      <a href="">About me</a>
+      <a
+        target="_blank"
+        href="https://www.linkedin.com/in/moises-monteiro-91063622a/"
         >Contact</a
       >
       <a href="">Projects</a>
     </span>
   </nav>
   <main>
-    <section class="about-me">
+    <section class="apresentation">
       <article>
-        <h2>Fullstack Developer</h2>
-        <p class="myname">Moisés Monteiro Pereira</p>
+        <h2 class="iam">
+          I am a <br />
+          WEB DEVELOPER
+        </h2>
+        <p class="myname"><b>Moisés Monteiro Pereira</b></p>
         <div class="social">
-          <a href="https://www.linkedin.com/in/moises-monteiro-91063622a/"
+          <a
+            href="https://www.linkedin.com/in/moises-monteiro-91063622a/"
+            role="title"
+            title="linkedin"
             ><i class="ri-linkedin-box-line"></i
           ></a>
 
-          <a href="https://github.com/zzeis"><i class="ri-github-line"></i></a>
+          <a href="https://github.com/zzeis" role="title" title="GITHUB"
+            ><i class="ri-github-line"></i
+          ></a>
+          <!-- Botão de Download do Currículo -->
+          <a
+            href="/assets/curriculo.pdf"
+            download="Curriculo_Moises_Monteiro_Pereira"
+            class="btn-download"
+            role="title"
+            title="download CV"
+          >
+            <i class="ri-download-line"></i>
+          </a>
         </div>
       </article>
 
-      <picture>
-        <img src="/assets/img/perfil.png" width="200" height="200" />
+      <picture class="me">
+        <img src="/assets/img/profile-pic.png" width="300" height="300" />
       </picture>
     </section>
 
-    <!-- <section class="habilidades">
-        <h1>habilidades</h1>
-        <div class="icons">
-            <i class="devicon-php-plain"></i>
+    <section class="about-me">
+      <h2 class="title">About me</h2>
+      <p>
+        I am a web developer, 23 years,Graduated in Systems Analysis(2020) from
+        Univr, and post-graduated in Web Development(2023) from Unyleia
+      </p>
+      <div class="icons">
+        <i class="devicon-php-plain"></i>
+        <i class="devicon-laravel-original-wordmark"></i>
 
-            <i class="devicon-javascript-plain"></i>
-          
-            <i class="devicon-codeigniter-plain"></i>
-          
-        </div>
-    </section> -->
+        <i class="devicon-javascript-plain"></i>
+
+        <i class="devicon-codeigniter-plain"></i>
+
+        <i class="devicon-mysql-plain-wordmark"></i>
+      </div>
+    </section>
 
     <section class="projects">
       <h1 class="title">Projects</h1>
@@ -71,7 +98,7 @@
               height="100"
               alt="example project tasklist"
             />
-            <br />TaskList</a
+            <br />TaskList<br>JS - React</a
           >
         </div>
         <div class="project">
@@ -82,7 +109,7 @@
               height="100"
               alt="example project simpleForm"
             />
-            <br />SimpleForm</a
+            <br />SimpleForm<br>PHP - Codeigniter 4</a
           >
         </div>
         <div class="project">
@@ -97,19 +124,19 @@
               alt="example project ManageSupports"
             />
             <br />
-            ManageSupports</a
+            Supports<br>PHP - Laravel</a
           >
         </div>
         <div class="project">
           <a target="_blank" href="https://datecountzzeis.netlify.app/">
             <img
               src="/assets/img/specialdate.png"
-              width="200"
+              max-width="200"
               height="100"
               alt="example project ManageSupports"
             />
             <br />
-            SpecialDate</a
+            SpecialDate<br>JS</a
           >
         </div>
       </div>
