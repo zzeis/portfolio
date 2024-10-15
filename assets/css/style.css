@@ -1,37 +1,48 @@
-
-
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-html{
-   margin: 0;
+:root {
+    --color-primary: #00c2a8;
+}
+
+html {
+    margin: 0;
 
 }
-a{
+
+a {
     text-decoration: none;
     color: black;
 }
 
 
-nav{
+nav {
     margin: 0;
-    
+
     font-family: "Roboto", sans-serif;
     display: flex;
-    
+
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-   
+
 }
 
-.links-nav{
+.myname {
+    letter-spacing: 2px;
+    border-bottom: 3px solid var(--color-primary);
+}
+
+.links-nav {
     display: flex;
     flex-direction: row;
     gap: 10px;
 }
 
-main{
+.links-nav a:hover {
+    color: var(--color-primary);;
+}
+
+main {
     font-family: "Roboto", sans-serif;
     display: flex;
     flex-direction: column;
@@ -39,38 +50,92 @@ main{
     justify-content: space-evenly;
 }
 
-.about-me{
+.apresentation {
     width: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
     margin-top: 10%;
-    padding-bottom: 50%;
+    padding-bottom: 30%;
+    flex-wrap: wrap;
 }
 
-.about-me i{
+.about-me i {
     font-size: 1.2rem;
+    margin-bottom: 30%;
 }
 
-.projects{
+.iam {
+    font-size: 3rem;
+}
+
+.me {}
+
+.social{
+    display: flex;
+    flex: row;
+    align-items: center;
+}
+.social a{
+    align-items: center;
+    display: flex;
+}
+
+.social i {
+    font-size: 1.5rem;
+}
+
+.projects {
     width: 100%;
     margin: auto;
     text-align: center;
+    margin-bottom: 100px;
+
 }
 
-.list-projects{
+.list-projects {
     display: flex;
-   
+    margin-top: 50px;
     flex-direction: row;
+    gap: 10px;
     justify-content: space-evenly;
-    
+    flex-wrap: wrap;
 }
 
-.project{
+.project {
     display: flex;
     flex-direction: column;
     text-align: center;
     align-items: center;
     justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 10px;
+}
+
+.project:hover {
+    transition: 0.5s linear;
+    transform: scale(1.1);
+}
+
+.title {
+    letter-spacing: 2px;
+    margin-bottom: 50px;
+    display: inline;
+    border-bottom: 3px solid var(--color-primary);;
+
+
+}
+
+.icons {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 25px;
+
+}
+
+.icons i {
+    font-size: 3rem;
 }
